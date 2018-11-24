@@ -22,6 +22,8 @@ class Base():
         pass
     def test02(self):
         pass
+    def test03(self):
+        pass
     """
         需求：
             1. 打开 Ak_CRM
