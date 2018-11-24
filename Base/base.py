@@ -14,6 +14,7 @@ class Base():
         # 查找元素
         el=self.base_find_element(loc)
         # 清除内容
+
         el.clear()
         # 输入内容
         el.send_keys(text)
