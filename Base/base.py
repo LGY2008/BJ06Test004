@@ -20,7 +20,8 @@ class Base():
     # 截图方法
     def base_get_img(self):
         pass
-
+    def test02(self):
+        pass
     """
         需求：
             1. 打开 Ak_CRM
