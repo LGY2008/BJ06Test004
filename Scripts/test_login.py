@@ -1,4 +1,7 @@
 import os,sys
+
+import allure
+
 sys.path.append(os.getcwd())
 # 位置
 from Base.read_yaml import get_yaml
@@ -32,6 +35,7 @@ class TestLogin():
         self.login.page_input_password(password)
         print("预期结果为：",expect_toast)
         # 点击登录
+        allure.attach("描述：","点击登录按钮")
         self.login.page_click_login_btn()
 if __name__ == '__main__':
     pytest.main("-s test_login.py")
